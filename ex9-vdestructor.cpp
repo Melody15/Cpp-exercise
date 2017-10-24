@@ -5,7 +5,7 @@ using namespace std;
 class felid{
 public:
     felid() { cout << "felid" << endl; }
-    ~felid() { cout << "~felid" << endl; }
+    virtual ~felid() { cout << "~felid" << endl; }
 };
 
 class tiger: public felid{
